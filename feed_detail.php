@@ -8,9 +8,27 @@ $css_class = 'feed_detail';
 
 function print_content(){
     global $topelementobject;
-    echo "<h1><a href='".$topelementobject['link']."'>".$topelementobject['title']."</a></h1>\n";
-    echo "<p><strong>".$topelementobject['description']."</strong></p>\n";
-    echo "<p><img src='".$topelementobject['image']."' width='200px' />".$topelementobject['subtitle']."</p>\n";
+	echo "<div class='container'>\n";
+	
+	echo "<div class='card title-card mx-auto col-xs-12 col-md-8 col-lg-6'>";
+	if($topelementobject['image']!=NULL && $topelementobject['image']!='') {
+		echo "<img class='card-img' src='".$topelementobject['image']."' />\n";
+		echo "<div class='card-img-overlay'>\n";
+	}
+	echo "<div class='card-block'>\n";
+	echo "<h1><a href='".$topelementobject['link']."'>".$topelementobject['title']."</a></h1>\n";
+	echo "<p><strong>".$topelementobject['description']."</strong></p>\n";
+	echo "</div>\n";
+	echo "<div class='card-block'>\n";
+	echo "<p>".$topelementobject['subtitle']."</p>\n";
+	echo "</div>\n";
+	if($topelementobject['image']!=NULL && $topelementobject['image']!='') {
+		echo "</div>";
+	}
+	echo "</div>\n";
+
+    
+    ementobject['subtitle']."</p>\n";
     echo "<div class='card-deck'>\n";
     $epsublist = array_slice($topelementobject['episodes'], 0, 20, TRUE);
     foreach ($epsublist as $episodeobject) {
@@ -34,7 +52,7 @@ function print_content(){
         echo "<p class='card-text'><small class='text-muted'>".$episodeobject['pubDate']."</small></p>\n";
         echo "</div></div>\n\n";
     }
-    echo "</div></div>\n";
+    echo "</div></div></div>\n";//TODO: COMPROBAR QUE SE CIERRE TO BIEN
 }
 
 require '_template_page.php';
