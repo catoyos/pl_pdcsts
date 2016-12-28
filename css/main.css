@@ -1,0 +1,9 @@
+.supercontainer-feed_detail .card {
+    min-width: 16rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.supercontainer-feed_detail .card .card-img {
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opml version="1.0">
+  <head>
+    <title>PodcastAddict registration feeds</title>
+    <dateCreated>14 dic. 2016 7:50:49</dateCreated>
+    <dateModified>14 dic. 2016 7:50:49</dateModified>
+  </head>
+  <body>
+    <outline text="BuzzFeed's Internet Explorer" type="rss" xmlUrl="http://rss.acast.com/internetexplorer" htmlUrl="http://www.acast.com/internetexplorer" />
+    <outline text="Chapo Trap House" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:211911700/sounds.rss" htmlUrl="https://www.patreon.com/user?ty=h&amp;u=3343736" />
+    <outline text="Common Sense with Dan Carlin" type="rss" xmlUrl="http://feeds.feedburner.com/dancarlin/commonsense" htmlUrl="http://www.dancarlin.com" />
+    <outline text="CoolGames Inc" type="rss" xmlUrl="http://feeds.feedburner.com/CoolGamesInc" htmlUrl="https://art19.com/shows/coolgames-inc" />
+    <outline text="Dan Carlin's Hardcore History" type="rss" xmlUrl="http://feeds.feedburner.com/dancarlin/history" htmlUrl="http://www.dancarlin.com" />
+    <outline text="Chapo Trap House - Grey Wolf Feed" type="rss" xmlUrl="https://www.patreon.com/rss/chapotraphouse?auth=1935c12b62014c459c77be8d608bdc2d" htmlUrl="https://www.patreon.com/chapotraphouse" />
+    <outline text="I Don't Even Own a Television" type="rss" xmlUrl="http://ideotvpod.libsyn.com/rss" htmlUrl="http://www.idontevenownatelevision.com" />
+    <outline text="Idle Thumbs" type="rss" xmlUrl="http://www.idlethumbs.net/feeds/idle-thumbs" htmlUrl="http://www.idlethumbs.net/idlethumbs" />
+    <outline text="Idle Weekend" type="rss" xmlUrl="https://www.idlethumbs.net/feeds/idle-weekend" htmlUrl="http://www.idleweekend.net" />
+    <outline text="Match 3" type="rss" xmlUrl="https://simplecast.com/podcasts/1196/rss" htmlUrl="https://match3.simplecast.fm/" />
+    <outline text="Mystery Show" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:127611854/sounds.rss" htmlUrl="http://soundcloud.com/mysteryshow" />
+    <outline text="Myths and Legends" type="rss" xmlUrl="http://mythpodcast.libsyn.com/rss" htmlUrl="http://www.mythpodcast.com" />
+    <outline text="NPR Politics Podcast" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510310" htmlUrl="http://www.npr.org/sections/politics/" />
+    <outline text="Oh No Ross and Carrie" type="rss" xmlUrl="http://feeds.feedburner.com/OhNoPodcast" htmlUrl="http://ohnopodcast.com/" />
+    <outline text="Our Debut Album" type="rss" xmlUrl="http://ourdebutalbum.libsyn.com/rss" htmlUrl="http://www.ourdebutalbum.com" />
+    <outline text="Pop Culture Happy Hour" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510282" htmlUrl="http://www.npr.org/blogs/monkeysee/129472378/pop-culture-happy-hour/" />
+    <outline text="Radiolab" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="http://www.radiolab.org/series/podcasts/" />
+    <outline text="Radiolab Presents: More Perfect" type="rss" xmlUrl="http://feeds.wnyc.org/moreperfect" htmlUrl="http://www.wnyc.org/shows/radiolabmoreperfect" />
+    <outline text="Reply All" type="rss" xmlUrl="http://feeds.gimletmedia.com/hearreplyall" htmlUrl="http://gimletmedia.com/shows/reply-all" />
+    <outline text="Slate's Whistlestop" type="rss" xmlUrl="http://feeds.feedburner.com/SlatesWhistlestop" htmlUrl="http://www.slate.com/podcasts/" />
+    <outline text="Song Exploder" type="rss" xmlUrl="http://feed.songexploder.net/SongExploder" htmlUrl="http://www.songexploder.net" />
+    <outline text="Stop Podcasting Yourself" type="rss" xmlUrl="http://stoppodcastingyourself.libsyn.com/rss" htmlUrl="http://stoppodcastingyourself.com" />
+    <outline text="The Bugle" type="rss" xmlUrl="http://feeds.thebuglepodcast.com/thebuglefeed" htmlUrl="http://thebuglepodcast.com/" />
+    <outline text="The Dollop with Dave Anthony and Gareth Reynolds" type="rss" xmlUrl="http://thedollop.libsyn.com/rss" htmlUrl="https://www.facebook.com/thedollop" />
+    <outline text="The Flop House" type="rss" xmlUrl="http://theflophouse.libsyn.com/rss" htmlUrl="http://www.flophousepodcast.com" />
+    <outline text="The SCUMBAG Podcast" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:232616847/sounds.rss" htmlUrl="http://soundcloud.com/user-884696369" />
+    <outline text="We Hate Movies" type="rss" xmlUrl="http://whmpodcast.libsyn.com/rss" htmlUrl="http://www.whmpodcast.com" />
+    <outline text="Welcome to Night Vale" type="rss" xmlUrl="http://nightvale.libsyn.com/rss" htmlUrl="http://welcometonightvale.com" />
+    <outline text="Why Oh Why" type="rss" xmlUrl="http://wfmu.org/podcast/LK.xml" htmlUrl="http://www.whyohwhyradio.com" />
+    <outline text="You Must Remember This" type="rss" xmlUrl="http://feeds.feedburner.com/MustRememberThis" htmlUrl="http://youmustrememberthispodcast.com/" />
+  </body>
+</opml>
