@@ -5,26 +5,26 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <?php
 if(isset($head_title) && $head_title != '') {
-	$head_title .= " - ";
+    $head_title .= " - ";
 } else {
-	$head_title = "";
+    $head_title = "";
 }
 $head_title .= "podcasts i tal";
 
 if(!isset($css_class)){
-	$css_class = "default";
+    $css_class = "default";
 }
 ?>
-<head>
+    <head>
 <?php include '_template_head.php'; ?>
-</head>
+    </head>
 
-<body>
-  <div class='supercontainer-<?=$css_class ?>'>
-
-  </div>
-  <div id="piejs">
-  <?php include '_template_piejs.php'; ?>
-  </div>
-</body>
+    <body>
+        <div class='supercontainer-<?=$css_class ?>'>
+<?php print_content(); ?>
+        </div>
+        <div id="piejs">
+<?php include '_template_piejs.php'; ?>
+        </div>
+    </body>
 </html>

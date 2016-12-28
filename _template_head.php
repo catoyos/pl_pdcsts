@@ -1,11 +1,3 @@
-<?php
-if($head_title==NULL || $head_title == "") {
-	$head_title = "";
-} else {
-	$head_title .= " -- ";
-}
-$head_title .= "podcasts i tal";
-?>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
