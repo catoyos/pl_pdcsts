@@ -1,14 +1,23 @@
 .supercontainer-feed_detail .card {
     min-width: 16rem;
     margin-bottom: 1rem;
-    overflow: hidden;
-}
-
-.supercontainer-feed_detail .title-card .card-img-overlay {
-	background-color: #ccc;
-	background-color: rgba(255,255,255, 0.7);
+    overflow-wrap: break-word;
 }
 
 .supercontainer-feed_detail .card .card-img {
     width: 100%;
+}
+
+.supercontainer-feed_detail .title-card {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.supercontainer-feed_detail .title-card .card-img-overlay {
+	background-color: #ccc;
+	background-color: rgba(255,255,255, 0.5);
+}
+
+.supercontainer-feed_detail .title-card .card-block {
+	background-color: #eee;
+	background-color: rgba(255,255,255, 0.9);
 }

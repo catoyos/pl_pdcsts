@@ -55,6 +55,7 @@ function get_channel_data($xml_channel_element) {
 	}
 	$data['description'] = (string)$xml_channel_element->description[0];
 	$data['summary'] = (string)$xml_channel_element->children('itunes', true)->summary[0];
+	$data['subtitle'] = (string)$xml_channel_element->children('itunes', true)->subtitle[0];
 	$data['last_checked'] = null;
 	$data['last_update'] = (string)$xml_channel_element->lastBuildDate[0];
 	$data['ttl'] = (string)$xml_channel_element->ttl[0];
@@ -74,8 +75,9 @@ function get_item_data($xml_item_element) {
 	$data['url'] = (string)$xml_item_element->enclosure[0]['url'];
 	$data['size'] = (string)$xml_item_element->enclosure[0]['length'];
 	$data['type'] = (string)$xml_item_element->enclosure[0]['type'];
-	$data['subtitle'] = (string)$xml_item_element->children('itunes', true)->subtitle[0];
 	$data['description'] = (string)$xml_item_element->description[0];
+	$data['summary'] = (string)$xml_item_element->children('itunes', true)->summary[0];
+	$data['subtitle'] = (string)$xml_item_element->children('itunes', true)->subtitle[0];
 	$data['image'] = (string)$xml_item_element->image[0];
 	$data['itunes_image'] = '';
 	if(count($xml_item_element->children('itunes', true)->image) > 0){
@@ -85,6 +87,7 @@ function get_item_data($xml_item_element) {
 		}
 	}
 	$data['pubDate'] = (string)$xml_item_element->pubDate[0];
+	$data['pubDate_parsed'] = date_parse($data['pubDate']);
 	$data['guid'] = (string)$xml_item_element->guid[0];
 	$data['link'] = (string)$xml_item_element->link[0];
 	$data['duration_str'] = (string)$xml_item_element->children('itunes', true)->duration[0];
