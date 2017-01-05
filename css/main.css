@@ -9,8 +9,8 @@
 }
 
 .supercontainer-feed_detail .title-card {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .supercontainer-feed_detail .title-card .card-img-overlay {
 	background-color: #ccc;
@@ -20,4 +20,13 @@
 .supercontainer-feed_detail .title-card .card-block {
 	background-color: #eee;
 	background-color: rgba(255,255,255, 0.9);
+	overflow-y: auto;
+}
+
+.supercontainer-feed_detail .title-card .title-block {
+	height: 40%;
+}
+
+.supercontainer-feed_detail .title-card .desc-block {
+	height: 55%;
 }

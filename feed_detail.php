@@ -8,9 +8,11 @@ $css_class = 'feed_detail';
 
 function print_content(){
 	global $topelementobject;
+	/*
 	echo "<!--"; 
 	print_r($topelementobject);
 	echo "-->"; 
+	*/
 	echo "<div class='container'>\n";
 
 	echo "<div class='card title-card mx-auto col-xs-12 col-md-8 col-lg-6'>";
@@ -18,11 +20,12 @@ function print_content(){
 			echo "<img class='card-img' src='".$topelementobject['image']."' />\n";
 			echo "<div class='card-img-overlay'>\n";
 	}
-	echo "<div class='card-block'>\n";
+	echo "<div class='card-block title-block'>\n";
 	echo "<h1><a href='".$topelementobject['link']."'>".$topelementobject['title']."</a></h1>\n";
 	echo "<span class='card-subtitle text-muted'>".$topelementobject['subtitle']."</span>\n";
 	echo "</div>\n";
-	echo "<div class='card-block'>\n";
+	echo "<br />\n";
+	echo "<div class='card-block desc-block'>\n";
 	echo "<p class='small'>".$topelementobject['summary']."</p>\n";
 	echo "<p class='small'>".$topelementobject['description']."</p>\n";
 	echo "</div>\n";
